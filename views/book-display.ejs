@@ -1,0 +1,31 @@
+<%- include('snippets/head')%>
+
+<link rel="stylesheet" href="/css/book.css" >
+
+</head>
+
+<body>
+    <header class="main-header">
+        <%- include('snippets/nav')%>
+    </header>
+
+    <main>
+
+        <% if(hasBooks){ %>
+        <h1 class="books__title" >Books</h1>
+        <div class="grid">
+            <% for(let book of books){ %>
+            <article class="card book-item">
+                <div class="card__content">
+                    <h2 class="book__info"><%= book.bookTitle %></h2>
+                    <p class="book__info"><%= book.summary %></p>
+                </div>
+            </article>
+            <% } %>
+        </div>
+        <% } else{ %>
+        <h1>No Books Found</h1> 
+        <% } %>
+        
+    </main>
+<%- include('snippets/footer') %>
