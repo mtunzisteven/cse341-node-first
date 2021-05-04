@@ -1,26 +1,26 @@
-.book-form {
+.bookForm {
     width: 20rem;
     max-width: 90%;
     margin: auto;
 }
 
-.book-item {
+.bookItem {
     width: 250px;
     min-height:250px;
     margin: 5px;
 }
 
-.books__title {
+.booksTitle {
     font-size: 2.4rem;
     text-align: center;
 }
 
-.book__title {
+.booksTitle {
     font-size: 1.2rem;
     text-align: center;
 }
 
-.book__info {
+.bookInfo {
     text-align: center;
     color: #4d4d4d;
     margin-bottom: 0.5rem;

@@ -62,47 +62,47 @@ main {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
-.card__header,
-.card__content {
+.cardHeader,
+.cardContent {
   padding: 1rem;
 }
 
-.card__header h1,
-.card__content h1,
-.card__content h2,
-.card__content p {
+.cardHeader h1,
+.cardContent h1,
+.cardContent h2,
+.cardContent p {
   margin: 0;
 }
 
-.card__image {
+.cardImage {
   width: 100%;
 }
 
-.card__image img {
+.cardImage img {
   width: 100%;
 }
 
-.card__actions {
+.cardActions {
     padding: 1rem;
     text-align: center;
 }
 
-.card__actions button,
-.card__actions a {
+.cardActions button,
+.cardActions a {
     margin: 0 0.25rem;
 }
 
-.btn {
+.button {
   font: inherit;
-  border: 1px solid #00695c;
-  color: #00695c;
+  border: 1px solid #690000;
+  color: #690000;
   background: white;
   border-radius: 3px;
   cursor: pointer;
 }
 
-.btn:hover,
-.btn:active {
-  background-color: #00695c;
+.button:hover,
+.button:active {
+  background-color: #690000;
   color: white;
 }

@@ -5,20 +5,20 @@
 </head>
 
 <body>
-    <header class="main-header">
+    <header class="mainHeader">
         <%- include('snippets/nav')%>
     </header>
 
     <main>
 
         <% if(hasBooks){ %>
-        <h1 class="books__title" >Books</h1>
+        <h1 class="booksTitle" >Books</h1>
         <div class="grid">
             <% for(let book of books){ %>
             <article class="card book-item">
-                <div class="card__content">
-                    <h2 class="book__info"><%= book.bookTitle %></h2>
-                    <p class="book__info"><%= book.summary %></p>
+                <div class="cardContent">
+                    <h2 class="bookInfo"><%= book.bookTitle %></h2>
+                    <p class="bookInfo"><%= book.summary %></p>
                 </div>
             </article>
             <% } %>
